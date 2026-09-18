@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>鮨 白波 — SHIRANAMI | 香港の江戸前寿司</title>
+    <meta name="description" content="香港中環の江戸前寿司 鮨白波。一握入魂の仕事と、静かなおもてなし。" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans+JP:wght@300;400;500&family=Noto+Serif+JP:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <a class="logo" href="#top" aria-label="鮨 白波">
+        <span class="logo-jp">鮨 白波</span>
+        <span class="logo-en">SHIRANAMI</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#news" data-i18n="nav.news">新着情報</a>
+        <a href="#craft" data-i18n="nav.craft">こだわり</a>
+        <a href="#about" data-i18n="nav.about">店舗情報</a>
+        <a href="#reserve" data-i18n="nav.reserve">ご予約</a>
+      </nav>
+      <div class="nav-right">
+        <button class="lang-toggle" id="langToggle" type="button">EN</button>
+        <button class="menu-btn" id="menuBtn" type="button" aria-label="Menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </header>
+    <section class="hero" id="top">
+      <div class="hero-media" aria-hidden="true"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-copy">
+        <p class="hero-kana" data-i18n="hero.kana">しらなみ</p>
+        <h1 class="hero-title">
+          <span class="t-vert">鮨</span>
+          <span class="t-name">白波</span>
+        </h1>
+        <p class="hero-sub" data-i18n="hero.sub">卓越し た技術</p>
+      </div>
+      <div class="scroll-hint">Scroll</div>
+    </section>
+    <section class="panel news" id="news">
+      <div class="panel-inner paper">
+        <h2 class="section-title">
+          <span data-i18n="news.title">おしらせ</span>
+          <small>NEWS</small>
+        </h2>
+        <article class="news-item">
+          <time datetime="2026-09-01">2026年9月1日</time>
+          <h3 data-i18n="news.h">秋季おまかせコースのご案内</h3>
+          <p data-i18n="news.p">秋の初鰻、北寄、そして新米のシャリ。季節の移ろいを一皿ずつお届けするおまかせを、9月よりご用意しております。</p>
+        </article>
+        <article class="news-item">
+          <time datetime="2026-07-15">2026年7月15日</time>
+          <h3 data-i18n="news.h2">ランチ席を増設いたしました</h3>
+          <p data-i18n="news.p2">平日ランチにカウンター2席を増設。ご予約はお電話またはフォームよりお願いいたします。</p>
+        </article>
+      </div>
+    </section>
+    <section class="craft" id="craft">
+      <div class="craft-bg"></div>
+      <div class="craft-grid">
+        <header class="craft-head">
+          <h2 data-i18n="craft.title">こだわり</h2>
+          <p class="en-label">COMMITMENTS</p>
+        </header>
+        <article>
+          <h3 data-i18n="craft.1t">一握入魂</h3>
+          <p data-i18n="craft.1p">すしは、味はもとより、見た目の美しさや握りの所作もおいしさのひとつ。ネタ・シャリ・わさびの三位一体を、温度と湿度ごと設計します。</p>
+        </article>
+        <article>
+          <h3 data-i18n="craft.2t">凛・清</h3>
+          <p data-i18n="craft.2p">カウンターを舞台に、伝統的ですっきりとした内装。玄関の暖簿から天井まで、江戸前らしい清々しい空気感を大切にしています。</p>
+        </article>
+        <article>
+          <h3 data-i18n="craft.3t">すし導</h3>
+          <p data-i18n="craft.3p">「食事」は人を良くする事。技と知だけでなく、品性と感性を磨き、一席ごとの時間をお預かりします。</p>
+        </article>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="about-split">
+        <div class="about-photo"></div>
+        <div class="about-copy">
+          <p class="en-label">ABOUT</p>
+          <h2 data-i18n="about.title">店舗情報</h2>
+          <h3 data-i18n="about.chef">白波 慎一郎</h3>
+          <p data-i18n="about.bio">東京で十年修業ののち独立。江戸前の仕事を軸に、香港の海の幸と向き合う。旬を急がず、熟成と塩梅で季節を語る。</p>
+          <dl class="meta">
+            <div>
+              <dt data-i18n="about.loc">所在地</dt>
+              <dd>G/F, 18 Peel Street, Central, Hong Kong</dd>
+            </div>
+            <div>
+              <dt data-i18n="about.hours">営業時間</dt>
+              <dd data-i18n="about.hoursv">火–日 12:00–14:00 / 18:00–22:00<br />月曜定休</dd>
+            </div>
+            <div>
+              <dt data-i18n="about.tel">電話</dt>
+              <dd>+852 2123 8800</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+    <section class="reserve" id="reserve">
+      <div class="reserve-inner">
+        <h2 data-i18n="reserve.title">ご予約</h2>
+        <p class="reserve-lead" data-i18n="reserve.lead">おまかせのみ。アレルギーはご予約時にお知らせください。</p>
+        <form class="form" id="reserveForm">
+          <label>
+            <span data-i18n="form.name">お名前</span>
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            <span data-i18n="form.date">ご希望日</span>
+            <input type="date" name="date" required />
+          </label>
+          <label>
+            <span data-i18n="form.guests">人数</span>
+            <select name="guests">
+              <option>1</option>
+              <option selected>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select>
+          </label>
+          <label class="full">
+            <span data-i18n="form.note">ご要望</span>
+            <textarea name="note" rows="4"></textarea>
+          </label>
+          <button type="submit" data-i18n="form.send">送信する</button>
+        </form>
+        <p class="form-ok hidden" id="formOk" data-i18n="form.ok">ありがとうございます。スタッフより折り返しご連絡いたします。</p>
+      </div>
+    </section>
+    <footer class="foot">
+      <div>
+        <strong>鮨 白波</strong>
+        <span>SHIRANAMI</span>
+      </div>
+      <p>© 2026 Shiranami. All rights reserved.</p>
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
